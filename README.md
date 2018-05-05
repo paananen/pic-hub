@@ -30,3 +30,7 @@ The current solution has four parts.
 * Add comments to photos
 * Ability to use other database platforms (mongo, postgress, etc.)
 * node.js version of the viewing site (because I'd like to learn how)
+
+# With Help From...
+* [drewnoakes/metadata-extractor-images](https://github.com/drewnoakes/metadata-extractor-images)
+* [Newtonsoft](https://www.newtonsoft.com/json)
