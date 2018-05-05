@@ -26,3 +26,5 @@ The current solution has four parts.
 * Add Google photo
 * User login(s) - admins, viewers
 * Add comments to photos
+* Ability to use other database platforms (mongo, postgress, etc.)
+* node.js version of the viewing site (because I'd like to learn how)
