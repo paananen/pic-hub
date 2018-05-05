@@ -23,6 +23,7 @@ The current solution has four parts.
 * Photo tags (manual and maybe auto if possible)
 * Search functionality
 * Face recognition and tagging
+* A settings page
 * Add photos from multiple local sources
 * Add Google photo
 * User login(s) - admins, viewers
