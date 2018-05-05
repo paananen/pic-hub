@@ -11,6 +11,6 @@ A website to view and manage the photos.
 
 
 ## Future Ideas
-	* Photo tags
-	* Face recognition and tagging
-	* Add Google photo
+* Photo tags
+* Face recognition and tagging
+* Add Google photo
