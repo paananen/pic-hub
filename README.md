@@ -20,7 +20,8 @@ The current solution has four parts.
 <img src="https://github.com/paananen/pic-hub/raw/master/screencaps/pichub-default-view.png" width= "205" height="365">&nbsp;<img src="https://github.com/paananen/pic-hub/raw/master/screencaps/pichub-grid-view.png" width= "205" height="365">&nbsp;<img src="https://github.com/paananen/pic-hub/raw/master/screencaps/pichub-folder-view.png" width= "205" height="365">&nbsp;<img src="https://github.com/paananen/pic-hub/raw/master/screencaps/pichub-default-view-with-menu.png" width= "205" height="365">
 
 ## Future Ideas
-* Photo tags
+* Photo tags (manual and maybe auto if possible)
+* Search functionality
 * Face recognition and tagging
 * Add photos from multiple local sources
 * Add Google photo
