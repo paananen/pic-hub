@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Photo_Scanner
 {
@@ -13,7 +9,7 @@ namespace Photo_Scanner
         /// </summary>
         public string FullPath { get; set; }
         /// <summary>
-        /// Example: ftp://192.168.0.10/2016/2016-11-07/IMG_4943.JPG
+        /// Example: ftp://localhost/2016/2016-11-07/IMG_4943.JPG
         /// </summary>
         public string FtpPath { get; set; }
         /// <summary>

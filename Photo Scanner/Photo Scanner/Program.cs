@@ -20,6 +20,7 @@ namespace Photo_Scanner
         /// Assumptions:
         ///     1. You've already set up a database (SQL Server) and have the table created
         ///         - https://www.microsoft.com/en-us/download/details.aspx?id=55994
+        ///     2. You have an IIS ftp site created to host all the photos --> ftp://localhost
         /// </summary>
         private static void Main()
         {
@@ -96,7 +97,7 @@ namespace Photo_Scanner
                 {
                     var p = ExtractMetaData(file);
                     DbWrite(p);
-                    SendMail(p);
+                    //SendMail(p);
                 }
                 else
                 {
