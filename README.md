@@ -3,7 +3,7 @@ Picture viewing and management platform.
 
 Simple, right?
 
-Got an idea or see something you can help with? Go for it! I don't have a contribution guide yet (because... see ToDo list), so feel free to write some code and ~~send it in~~ 
+Got an idea or see something you can help with? Go for it! I don't have a contribution guide yet (because... see [ToDo](https://github.com/paananen/pic-hub/blob/master/README.md#todo-list) list), so feel free to write some code and ~~send it in~~ 
 
 `git add . `
 
