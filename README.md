@@ -26,7 +26,7 @@ If you've got an idea or see something you can help with? Go for it! I don't hav
 30,000+ photos on a NAS and no good way to view them.
 
 ## The Idea
-A website to view and manage the photos. We want to be able to do the lease amount of work possible to get photos of our cameras and phones and make them viewable on this site.
+A website to view and manage the photos. We want to be able to do the least amount of work possible to get photos off our cameras and phones and make them viewable on a website.
 
 ## ToDo List
 - [x] Create read me
@@ -37,7 +37,7 @@ A website to view and manage the photos. We want to be able to do the lease amou
 - [x] Add the first component of the project and start writing some code!
 
 ## Current Stuff
-The current solution I'm running has four parts. They currently work (mostly) but I've not create a public GitHub :octocat: project before and wanted to try this out. So I'm starting again and will be pushing updates here. 
+The current solution I'm running has four parts. They work (mostly) but I've not created a public GitHub :octocat: project before and wanted to try this out. So I'm starting again and will be pushing updates here as I go.
 
 1. **Photo Scanner** A console application that scans the photos directory and writes all the photo data to an SQL Server database.
     * - [x] Create solution
@@ -52,10 +52,10 @@ The current solution I'm running has four parts. They currently work (mostly) bu
     * - [ ] Create solution
     * - [ ] Add to git project
 
-**Disclaimer**: *The final solution doesn't need to follow this same path. I've just done this in seperate parts because I like breaking thinks down into small components and working on things piece by piece.*
+**Disclaimer**: *The final solution doesn't need to follow this same path. I've just done this in seperate parts because I like breaking things down into small components and working on them piece by piece.*
 
 ### Screenshots
-*This is an example that I currently have running at home. I'll (hopefully) be cleaning things up a little as I try replicate what I've done so far.*
+*This is an example that I currently have running at home. I'll (hopefully) be cleaning it up a little as I try replicate what I've done so far.*
 
 <img src="https://github.com/paananen/pic-hub/raw/master/screencaps/pichub-default-view.png" width= "205" height="365">&nbsp;<img src="https://github.com/paananen/pic-hub/raw/master/screencaps/pichub-grid-view.png" width= "205" height="365">&nbsp;<img src="https://github.com/paananen/pic-hub/raw/master/screencaps/pichub-folder-view.png" width= "205" height="365">&nbsp;<img src="https://github.com/paananen/pic-hub/raw/master/screencaps/pichub-default-view-with-menu.png" width= "205" height="365">
 
