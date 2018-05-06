@@ -33,10 +33,12 @@ The current solution has four parts.
   * Aperture
   * Etc...
 * Search functionality
+* Private photos (that need an approved login to see)
 * Face recognition and tagging
 * A settings page
 * Add photos from multiple local sources
 * Add Google photo
+  * [Google Drive API > Rest > Files: list](https://developers.google.com/drive/v3/reference/files/list)
 * User login(s) - admins, viewers
 * Add comments to photos
 * Ability to use other database platforms (mongo, postgress, etc.)
