@@ -1,9 +1,13 @@
 # pic-hub
 Picture viewing and management platform. 
 
-Simple, right?
+Simple, right? Well, maybe not so simple. So I've created a getting started site here > [Getting Started](https://github.com/paananen/pic-hub/wiki)
 
-Got an idea or see something you can help with? Go for it! I don't have a contribution guide yet (because... see [ToDo](https://github.com/paananen/pic-hub/blob/master/README.md#todo-list) list), so feel free to write some code and ~~send it in~~ 
+Remember this is a work in progress - so things might be a bit jankey for a while.
+
+...but...
+
+If you've got an idea or see something you can help with? Go for it! I don't have a contribution guide yet (because... see [ToDo](https://github.com/paananen/pic-hub/blob/master/README.md#todo-list) list), so feel free to write some code and ~~send it in~~ 
 
 `git add . `
 
