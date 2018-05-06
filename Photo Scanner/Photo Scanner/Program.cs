@@ -14,7 +14,7 @@ namespace Photo_Scanner
     {
         private static readonly string ConnString = ConfigurationManager.ConnectionStrings["SQLServerConnection"].ConnectionString;
         //TODO: I don't like setting this in code - there's got to be a better way to do this
-        private const string FtpSite = @"ftp://192.168.0.141";
+        private const string FtpSite = @"ftp://localhost";
 
         /// <summary>
         /// Assumptions:
@@ -42,7 +42,11 @@ namespace Photo_Scanner
                 string[] fileTypes = { "*.jpg", "*.jpeg", "*.png", "*.gif" };
                 var fileNames = GetFiles(photoDir, fileTypes);
 
-                ScanPath(fileNames, dbList);
+                var names = fileNames as string[] ?? fileNames.ToArray();
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("\t [+] - Converting to lists - This could take a little while, please be patient...");
+                Console.ForegroundColor = ConsoleColor.White;
+                ScanPath(names, dbList);
             }
 
             Console.ForegroundColor = ConsoleColor.Red;
@@ -55,10 +59,26 @@ namespace Photo_Scanner
 
         }
 
+        private static void SendMail(PhotoData pData)
+        {
+            var stopWatch = new Stopwatch();
+            stopWatch.Start();
+
+            Emailer.Send(pData);
+
+            stopWatch.Stop();
+            var ts = stopWatch.Elapsed;
+
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine($"\t [e] { ts.Hours:00}:{ ts.Minutes:00}:{ ts.Seconds:00}.{ ts.Milliseconds / 10:00}");
+            Console.ForegroundColor = ConsoleColor.White;
+
+        }
+
         private static void ScanPath(IEnumerable<string> fileNames, IEnumerable<string> dbList)
         {
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("\t [+] - Converting to lists - This could take a little while, please be patient...");
+            Console.WriteLine("\t [+] - Method started");
             var fileList = new List<string>(fileNames);
             var dbFileList = new List<string>(dbList);
             Console.WriteLine("\t [+] - Converting done");
@@ -76,6 +96,7 @@ namespace Photo_Scanner
                 {
                     var p = ExtractMetaData(file);
                     DbWrite(p);
+                    SendMail(p);
                 }
                 else
                 {
