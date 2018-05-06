@@ -45,8 +45,6 @@ namespace Photo_Scanner
                 ScanPath(fileNames, dbList);
             }
 
-            //TODO: remove db references to files that don't exist anymore...
-
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("--- DONE ---");
             Console.ForegroundColor = ConsoleColor.White;
