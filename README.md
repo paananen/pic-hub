@@ -79,6 +79,7 @@ The current solution I'm running has four parts. They currently work (mostly) bu
 * Add comments to photos
 * Ability to use other database platforms (mongo, postgress, etc.)
 * node.js version of the viewing site (because I'd like to learn how)
+* Videos! People make videos sometimes too right.
 
 # With Help From...
 * [drewnoakes/metadata-extractor-images](https://github.com/drewnoakes/metadata-extractor-images)
