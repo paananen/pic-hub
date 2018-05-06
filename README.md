@@ -37,9 +37,9 @@ The current solution I'm running has four parts. They currently work (mostly) bu
 
 1. **Photo Scanner** A console application that scans the photos directory and writes all the photo data to an SQL Server database.
     * - [x] Create solution
-    * - [ ] Add to git project
+    * - [x] Add to git project
 2. **Photo API** An API that serves information from the photos database (because I wanted my very own an API).
-    * - [ ] Create solution
+    * - [x] Create solution
     * - [ ] Add to git project
 3. **Photo FTP** An FTP site hosting the photos.
     * - [ ] Is an FTP site the best way to do this?
