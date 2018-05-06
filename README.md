@@ -31,10 +31,10 @@ A website to view and manage the photos. We want to be able to do the lease amou
 ## ToDo List
 - [x] Create read me
 - [ ] Finish read me (will it ever really be "finished"?)
-- [ ] Create wiki
+- [x] Create wiki
 - [ ] Create a contribution guide (I feel like thats a thing I've seen on other projects)
 - [ ] Google What a contribution guide is and what it should contain
-- [ ] Add the first component of the project and start writing some code!
+- [x] Add the first component of the project and start writing some code!
 
 ## Current Stuff
 The current solution I'm running has four parts. They currently work (mostly) but I've not create a public GitHub :octocat: project before and wanted to try this out. So I'm starting again and will be pushing updates here. 
