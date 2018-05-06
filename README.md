@@ -21,6 +21,17 @@ The current solution has four parts.
 
 ## Future Ideas
 * Photo tags (manual and maybe auto if possible)
+* Photo view counters
+  * This could also be used as a weight when getting random photos
+    * i.e. if view number is large then there should be less change of it being displayed in random photos
+* Photo stats
+  * Camera
+  * Lens
+  * Time of day
+  * ISO
+  * Shutter speet
+  * Aperture
+  * Etc...
 * Search functionality
 * Face recognition and tagging
 * A settings page
